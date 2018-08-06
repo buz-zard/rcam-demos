@@ -130,6 +130,7 @@ const enhance = connect(
       dispatch(
         api.actions.invoke({
           endpoint: BASE_URL + url,
+          redirect: 'follow',
           cache: { key: `GET/${url}` },
         })
       );

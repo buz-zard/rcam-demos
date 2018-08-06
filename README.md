@@ -1,16 +1,11 @@
-# [`RCAM`][RCAM] demo
+# [`RCAM`][RCAM] demos
 
-> redux-cached-api-middleware demo built with create-react-app
+> redux-cached-api-middleware demos monorepo
 
-This demo demonstrates `TTL_SUCCESS` caching and `DEFAULT_INVOKE_OPTIONS` and `DEFAULT_CACHE_STRATEGY` usage.
+## Usage
 
-## Installation
-
-`$ yarn`
-
-## Commands
-
-- `npm run start` - start a development server @ <http://localhost:3000/>
-- `npm run try-demo` - build all the assets and serve single page application @ <http://localhost:5000/>
+- `yarn`
+- `cd demo/<any-demo-dir>`
+- `yarn start`
 
 [RCAM]:https://www.npmjs.com/package/redux-cached-api-middleware

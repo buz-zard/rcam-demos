@@ -8,4 +8,4 @@ package.json
 package-lock.json
 
 # build products
-/build
+/demos/*/build

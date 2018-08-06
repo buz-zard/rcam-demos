@@ -1,0 +1,34 @@
+{
+  "name": "rcam-demo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "redux-cached-api-middleware create-react-app demo",
+  "scripts": {
+    "build": "react-scripts build",
+    "clean": "rimraf build",
+    "format": "sort-package-json",
+    "start": "react-scripts start",
+    "try-demo": "run-s clean build && serve -s build"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.4.3",
+    "babel-polyfill": "^6.26.0",
+    "date-fns": "^1.29.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-api-middleware": "^2.3.0",
+    "redux-cached-api-middleware": "^0.2.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.3",
+    "rimraf": "^2.6.2",
+    "serve": "^9.4.0"
+  }
+}
