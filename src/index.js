@@ -2,10 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
+import 'babel-polyfill';
 
-import App from './App';
+import App, { init } from './App';
 import { store, persistor } from './state';
 import registerServiceWorker from './registerServiceWorker';
+
+init();
 
 ReactDOM.render(
   <Provider store={store}>
@@ -15,4 +18,5 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+
 registerServiceWorker();
