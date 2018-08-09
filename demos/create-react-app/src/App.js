@@ -12,7 +12,7 @@ export const init = () => {
     headers: { Accept: 'application/json' },
   };
   api.config.DEFAULT_CACHE_STRATEGY = api.cache
-    .get(api.constants.CACHE_TYPES.TTL_SUCCESS)
+    .get(api.constants.CACHE_TYPES.TTL)
     .buildStrategy({ ttl: 30 * 1000 }); // 30 seconds
 };
 
