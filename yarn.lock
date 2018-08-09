@@ -7551,9 +7551,9 @@ redux-api-middleware@^2.3.0:
     babel-runtime "^6.25.0"
     lodash.isplainobject "^4.0.6"
 
-redux-cached-api-middleware@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/redux-cached-api-middleware/-/redux-cached-api-middleware-0.2.0.tgz#781c150d44757d22dac5a0baca37a910d7b0044a"
+redux-cached-api-middleware@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/redux-cached-api-middleware/-/redux-cached-api-middleware-0.3.0.tgz#ea81c20d27168c9117250a171f0cd1ee4c425229"
 
 redux-devtools-extension@^2.13.5:
   version "2.13.5"
