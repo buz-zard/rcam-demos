@@ -3,3 +3,5 @@ node_modules
 
 # build products
 /demos/*/build
+/demos/*/dist
+/demos/*/.cache

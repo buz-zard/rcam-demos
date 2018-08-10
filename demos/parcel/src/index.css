@@ -1,0 +1,50 @@
+ @tailwind preflight;
+ @tailwind components;
+
+.btn {
+  @apply bg-white text-grey-darkest py-1 px-2 border border-grey-light rounded shadow;
+}
+
+.btn:hover {
+  @apply bg-grey-lightest;
+}
+
+.btn--disabled {
+  @apply bg-grey-light;
+}
+
+.btn--disabled:hover {
+  @apply bg-grey-light;
+  cursor: not-allowed;
+}
+
+.link {
+  @apply text-black;
+}
+
+.link:hover {
+  @apply text-grey-darkest;
+}
+
+.link--white {
+  @apply text-white;
+}
+
+.link--white:hover {
+  @apply text-grey-light;
+}
+
+.loader {
+  @apply border-2 border-grey rounded-full;
+  border-top-color: #6574CD;
+  width: 1rem;
+  height: 1rem;
+  animation: spin 1.3s linear infinite;
+}
+
+ @tailwind utilities;
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

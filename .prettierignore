@@ -9,3 +9,5 @@ package-lock.json
 
 # build products
 /demos/*/build
+/demos/*/dist
+/demos/*/.cache
