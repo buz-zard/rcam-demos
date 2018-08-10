@@ -2,7 +2,8 @@
 
 > redux-cached-api-middleware demo built with parcel
 
-This demo combines 2 free public APIs to demonstrate default `DEFAULT_INVOKE_OPTIONS`, `DEFAULT_CACHE_STRATEGY` usage and overrides.
+This demo combines 2 free public APIs to demonstrate default
+`DEFAULT_INVOKE_OPTIONS`, `DEFAULT_CACHE_STRATEGY` usage and overrides.
 
 ## Commands
 

@@ -2,7 +2,8 @@
 
 > redux-cached-api-middleware demo built with create-react-app
 
-This demo demonstrates `TTL_SUCCESS` caching and `DEFAULT_INVOKE_OPTIONS` and `DEFAULT_CACHE_STRATEGY` usage.
+This demo demonstrates `TTL_SUCCESS` caching and `DEFAULT_INVOKE_OPTIONS` and
+`DEFAULT_CACHE_STRATEGY` usage.
 
 ## Commands
 
