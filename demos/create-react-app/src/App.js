@@ -3,7 +3,7 @@ import api from 'redux-cached-api-middleware';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 import Header from './Header';
-import Coins from './Coins';
+import RepositorySearcher from './RepositorySearcher';
 import Footer from './Footer';
 
 export const init = () => {
@@ -13,7 +13,7 @@ export const init = () => {
   };
   api.config.DEFAULT_CACHE_STRATEGY = api.cache
     .get(api.constants.CACHE_TYPES.TTL)
-    .buildStrategy({ ttl: 30 * 1000 }); // 30 seconds
+    .buildStrategy({ ttl: 10 * 60 * 1000 }); // 10 minutes
 };
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
       <CssBaseline />
       <Header />
       <div style={{ flex: 1 }}>
-        <Coins />
+        <RepositorySearcher />
       </div>
       <Footer />
     </div>
