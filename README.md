@@ -1,6 +1,13 @@
-# [`RCAM`][RCAM] demos
+# [`redux-cached-api-middleware`][RCAM] demos
 
 > redux-cached-api-middleware demos monorepo
+
+## Demos
+
+- [GitHub Explorer](/demos/github-explorer) - simple GutHub
+  user searcher
+- [Live Cryptocurrencies Dashboard](/demos/crypto-dashboard) - displays live info
+  of top cryptocurrencies in USD/EUR
 
 ## Usage
 

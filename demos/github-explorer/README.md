@@ -1,9 +1,8 @@
-# [`RCAM`][RCAM] create-react-app demo
+# GitHub User Explorer
 
-> redux-cached-api-middleware demo built with create-react-app
+> [redux-cached-api-middleware][RCAM] demo
 
-This demo demonstrates `TTL_SUCCESS` caching and `DEFAULT_INVOKE_OPTIONS` and
-`DEFAULT_CACHE_STRATEGY` usage.
+Search for GitHub users by name and check their repositories.
 
 ## Commands
 

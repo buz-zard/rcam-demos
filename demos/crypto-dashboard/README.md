@@ -1,9 +1,8 @@
-# [`RCAM`][RCAM] parcel demo
+# Top Cruptocurrency Dashboard
 
-> redux-cached-api-middleware demo built with parcel
+> [redux-cached-api-middleware][RCAM] demo
 
-This demo combines 2 free public APIs to demonstrate default
-`DEFAULT_INVOKE_OPTIONS`, `DEFAULT_CACHE_STRATEGY` usage and overrides.
+Displays live info of top cryptocurrencies in USD/EUR.
 
 ## Commands
 
