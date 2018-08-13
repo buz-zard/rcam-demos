@@ -11,7 +11,7 @@
     "format": "prettier --write '**/*.*' && sort-package-json && lerna run format --parallel",
     "lint": "run-p lint:*",
     "lint:js": "eslint .",
-    "lint:md": "markdownlint README.md && markdownlint demos/crypto-dashboard/README.md && markdownlint demos/github-explorer/README.md",
+    "lint:md": "markdownlint README.md && markdownlint demos/crypto-dashboard/README.md && markdownlint demos/github-explorer/README.md && markdownlint demos/hn-lite/README.md",
     "qa": "npm run lint"
   },
   "config": {
